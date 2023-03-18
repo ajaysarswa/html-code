@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf">
+    <link rel="stylesheet" href="./fonts/Poppins/Poppins-Regular.ttf">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="position-fixed top-0 w-100" id="head">
+        <div class="container">
+            <div class="row mx-0 align-items-center justify-content-between">
+                <div class="col-2 d-none d-sm-block"><img class="logo" src="./images/logo.png" alt=""></div>
+                <div class="col-12 col-sm-8 d-flex align-items-center justify-content-between justify-content-sm-end ">
+                    <p class="mb-0 text-white me-4">FREE BOTTLE FOR LIFE (WORTH</p>
+                    <button class="bg-white border-0 rounded-pill">Get</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="banner position-relative">
+        <img class="w-100 d-none d-sm-block" src="./images/whero@2x.png" alt="">
+        <img class="w-100 d-sm-none" src="./images/mobile-banner.png" alt="">
+        <img class="down-arrow position-absolute top-100 start-50 translate-middle" src="./images/Group 6198.png"
+            alt="">
+        <div class="container position-absolute">
+            <div class="col-12 col-sm-6 col-lg-5">
+                <h1 class="mb-1 text-center text-sm-start heading fw-bold">Transform Your Home</h1>
+                <h2 class="text-white text-center text-sm-start heading">Into A Spa</h2>
+                <p class="mb-2 fw-bold text-center text-sm-start">Get a Free Bottle For Life</p>
+                <div class="mb-3 text-center text-sm-start"><img class="col-6 col-sm-5" src="./images/Group 6232.png"
+                        alt=""></div>
+                <div class="text-center text-sm-start">
+                    <button class="offer-btn col-8 col-sm-10 rounded-pill ">Get Offer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="details bg-sky-blue py-5">
+        <div class="container">
+            <h2 class="text-center heading">Why Purdy & Figg?</h2>
+            <p class="text-center col-12 col-lg-8 col-md-10 m-auto ">Purdy & Figg makes ultra-concentrated, naturally
+                scented eco-friendly cleaning power that you dilute at home with tap water, designed to clean all the
+                surfaces in your home. The all purpose cleaner will transform your cleaning routine saving you time,
+                money and space at home.</p>
+        </div>
+    </div>
+
+    <div class="details-card py-5 overflow-hidden">
+        <div class="container">
+            <div class="d-none d-md-flex row row-cols-1 row-cols-md-3 g-1 mx-0 ">
+                <div class="col">
+                    <div class="card h-100 border-0 position-relative px-0">
+                        <div class="card-body pb-5">
+                            <p class="card-text text-center">Stripping back the jargon associated with cleaning
+                                products, family-run business Purdy & Figg has designed a cleaning system that will be
+                                effective and yet has a beautiful essential oil-based aroma, cuts back single-use
+                                plastic and supports your immune system.</p>
+                            <img class="col-8 position-absolute bottom-0 start-50 translate-middle-x"
+                                src="./images/Group 6302@2x.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 position-relative px-0">
+                        <div class="card-body pb-5">
+                            <p class="card-text text-center">“They smell nothing like a traditional cleaner, they’re
+                                quite luxurious aromatherapy style scents. I was surprised how efficient it was at
+                                cleaning my kitchen with just a couple of sprays and the counters smell like I’ve had an
+                                expensive candle burning in there afterwards.”</p>
+                            <img class="col-8 position-absolute bottom-0 start-50 translate-middle-x"
+                                src="./images/Ideal_Home_logo_wordmark copy.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 position-relative px-0">
+                        <div class="card-body pb-5">
+                            <p class="card-text text-center">““This is so brilliant — it’s a superconcentrated,
+                                eco-friendly, delicious-smelling cleaner that you can use on everything, from worktops
+                                to marble to wooden floors to baths to glass</p>
+                            <img class="col-8 position-absolute bottom-0 start-50 translate-middle-x"
+                                src="./images/sunday.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselExampleControlsNoTouching" class="carousel slide d-md-none" data-bs-touch="false"
+                data-bs-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="col px-2">
+                            <div class="card h-100 border-0 position-relative pb-2">
+                                <div class="card-body pb-5">
+                                    <p class="card-text text-center">Stripping back the jargon associated with cleaning
+                                        products, family-run business Purdy & Figg has designed a cleaning system that
+                                        will be effective and yet has a beautiful essential oil-based aroma, cuts back
+                                        single-use plastic and supports your immune system.</p>
+                                    <img class="col-8 position-absolute bottom-0 start-50 translate-middle-x"
+                                        src="./images/Group 6302@2x.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col px-2">
+                            <div class="card h-100 border-0 position-relative pb-2">
+                                <div class="card-body pb-5">
+                                    <p class="card-text text-center">“They smell nothing like a traditional cleaner,
+                                        they’re quite luxurious aromatherapy style scents. I was surprised how efficient
+                                        it was at cleaning my kitchen with just a couple of sprays and the counters
+                                        smell like I’ve had an expensive candle burning in there afterwards.”</p>
+                                    <img class="col-8 position-absolute bottom-0 start-50 translate-middle-x"
+                                        src="./images/Ideal_Home_logo_wordmark copy.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col px-2">
+                            <div class="card h-100 border-0 position-relative pb-2">
+                                <div class="card-body pb-5">
+                                    <p class="card-text text-center">““This is so brilliant — it’s a superconcentrated,
+                                        eco-friendly, delicious-smelling cleaner that you can use on everything, from
+                                        worktops to marble to wooden floors to baths to glass</p>
+                                    <img class="col-8 position-absolute bottom-0 start-50 translate-middle-x"
+                                        src="./images/sunday.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="benefits bg-blue py-5">
+        <div class="container pb-4">
+            <h1 class="heading text-center text-white mb-5">Benefits of Switching</h1>
+            <div class="row g-1 d-none d-md-flex mx-0">
+                <div class="col">
+                    <div class="card h-100 bg-transparent border-0">
+                        <div class="d-flex justify-content-center">
+                            <img src="./images/1.png" class="card-img-top w-25" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-white fs-4 mb-4">Spa Like Scents</h5>
+                            <p class="card-text text-center text-white">Natural scents with pure essential oils
+                                transform your home into a spa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-transparent border-0">
+                        <div class="d-flex justify-content-center">
+                            <img src="./images/2.png" class="card-img-top w-25" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-white fs-4 mb-4">Supports Health</h5>
+                            <p class="card-text text-center text-white">Natrual surfactants and mood boosting essential
+                                oils support gut health and immunity.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-transparent border-0">
+                        <div class="d-flex justify-content-center">
+                            <img src="./images/3.png" class="card-img-top w-25" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-white fs-4 mb-4">Saves Cupboard Space</h5>
+                            <p class="card-text text-center text-white">One cleaner that you can leave on the side
+                                reduces clutter under the cleaning cupboard.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-transparent border-0">
+                        <div class="d-flex justify-content-center">
+                            <img src="./images/4.png" class="card-img-top w-25" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-white fs-4 mb-4">It Makes Going Eco Easy</h5>
+                            <p class="card-text text-center text-white">Cut out single use plastic wasteland get all the
+                                benefits of Purdy & Figg.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="carouselExampleControls" class="carousel slide d-md-none" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="col">
+                            <div class="card h-100 bg-transparent border-0">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./images/1.png" class="card-img-top w-25" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-white fs-4 mb-4">Spa Like Scents</h5>
+                                    <p class="card-text text-center text-white fs-5">Natural scents with pure essential
+                                        oils
+                                        transform your home into a spa.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col">
+                            <div class="card h-100 bg-transparent border-0">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./images/2.png" class="card-img-top w-25" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-white fs-4 mb-4">Supports Health</h5>
+                                    <p class="card-text text-center text-white fs-5">Natrual surfactants and mood
+                                        boosting
+                                        essential
+                                        oils support gut health and immunity.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col">
+                            <div class="card h-100 bg-transparent border-0">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./images/3.png" class="card-img-top w-25" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-white fs-4 mb-4">Saves Cupboard Space</h5>
+                                    <p class="card-text text-center text-white fs-5">One cleaner that you can leave on
+                                        the
+                                        side
+                                        reduces clutter under the cleaning cupboard.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col">
+                            <div class="card h-100 bg-transparent border-0">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./images/4.png" class="card-img-top w-25" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-white fs-4 mb-4">It Makes Going Eco Easy</h5>
+                                    <p class="card-text text-center text-white fs-5">Cut out single use plastic
+                                        wasteland get
+                                        all the
+                                        benefits of Purdy & Figg.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="offer py-5">
+        <div class="container">
+            <h1 class="heading text-center mb-4">Get a Free Bottle For Life</h1>
+            <div class="row mx-0 align-items-center">
+                <div class="col col-12 col-md-6 mb-4 mb-md-0 position-relative">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/Big Bottle_3 small bottles.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Big Bottle_3 small bottles.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/Big Bottle_3 small bottles.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-5">
+                    <h3>Variety Starter Kit</h3>
+                    <div><img class="col-8 col-sm-5 mb-3" src="./images/Group 6305.png" alt=""></div>
+                    <div><img class="col-3 col-sm-2 mb-3" src="./images/Group 6307@2x.png" alt=""></div>
+                    <ul class="ps-0">
+                        <li class="d-flex align-items-center mb-2">
+                            <img src="./images/Group 6308.png" alt="">
+                            <p class="mb-0 ms-2">90 Days Cleaning in 3 Eco-Concentrates</p>
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <img src="./images/Group 6308.png" alt="">
+                            <p class="mb-0 ms-2">Delivered Quarterly, Pause or Cancel Anytime</p>
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <img src="./images/Group 6308.png" alt="">
+                            <p class="mb-0 ms-2">Try Three Bestselling Scents</p>
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <img src="./images/Group 6308.png" alt="">
+                            <p class="mb-0 ms-2">Free Bottle For Life & Microfibre Cloth</p>
+                        </li>
+                    </ul>
+                    <button class="offer-btn col-12 col-sm-10 rounded-pill mb-3">Get Offer</button>
+                    <p class="text-center">30 Day Money-Back Guarantee</p>
+                    <div class="text-center mb-4"><img class="col-10 col-sm-8" src="./images/Group 6311.png" alt="">
+                    </div>
+                    <hr class="d-none d-sm-block">
+                    <div class="row align-items-center">
+                        <div class="col col-6 text-center col-md-3 px-1">
+                            <img class="col-10" src="./images/PDP-Icons-02.png" alt="">
+                            <p class="fs-6">Plant-Based</p>
+                        </div>
+                        <div class="col col-6 text-center col-md-3 px-1">
+                            <img class="col-10" src="./images/PDP-Icons-03.png" alt="">
+                            <p class="fs-6">Paraben-Free</p>
+                        </div>
+                        <div class="col col-6 text-center col-md-3 px-1">
+                            <img class="col-10" src="./images/PDP-Icons-04.png" alt="">
+                            <p class="fs-6">Non GMO</p>
+                        </div>
+                        <div class="col col-6 text-center col-md-3 px-1">
+                            <img class="col-10" src="./images/PDP-Icons-05.png" alt="">
+                            <p class="fs-6">No Synthetic Fragrance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="transform-block bg-sky-blue pt-5">
+        <div class="container ">
+            <h1 class="heading text-center">Transform Your Home</h1>
+            <h1 class="heading text-center mb-5">Into A Spa</h1>
+            <div class="row mx-0 flex-wrap-reverse align-items-center justify-content-between">
+                <div class="col-12 col-md-6 pe-0 pe-md-5">
+                    <h2>The best essential oils</h2>
+                    <p>Create the most fantastic smelling home with Counter Clean. Watch how the pure essential oils
+                        stay and hug you and don’t be surprised when your guests notice. Find the scent you love with
+                        the variety kit and switch anytime.</p>
+                </div>
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <img class="w-100 transform-img-1" src="./images/home.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="second-block pt-4 pb-4">
+            <div class="container">
+                <div class="row mx-0 mt-0 pt-0 mt-md-5 pt-md-5  align-items-center justify-content-between">
+                    <div class="col-12 col-md-6 mb-4 mb-md-0">
+                        <img class="w-100 transform-img-2" src="./images/img-3.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 pe-0 pe-md-5">
+                        <h2>Hand blended</h2>
+                        <p>Our signature scents are hand blended here in the UK with the utmost attention to detail. Our
+                            founders have 30 years blending experience so you will always get the same incredible smell.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="products bg-sky-blue py-5 mt-4">
+        <div class="container">
+            <h1 class="text-center heading col-12 col-sm-10 col-md-8 col-lg-7 m-auto mb-5">You don’t need a million
+                cleaning products. You need one that works.</h1>
+            <div class="row  g-4 flex-nowrap">
+                <div class="col col-9 col-sm-8 col-md-3">
+                    <div class="card h-100 bg-transparent border-0">
+                        <div class="text-center"><img src="./images/Group 6468.png" class="card-img-top w-75" alt="...">
+                        </div>
+                        <div class="card-body px-0">
+                            <h5 class="card-title text-center">100% Effective On All Surfaces</h5>
+                            <p class="card-text text-center">Designed to clean all the surfaces in your home including
+                                Counters, Stone, Bath, Enamel, Glass, Mirrors, Wood and Floors.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-9 col-sm-8 col-md-3">
+                    <div class="card h-100 bg-transparent border-0">
+                        <div class="text-center"><img src="./images/Group 6469.png" class="card-img-top w-75" alt="...">
+                        </div>
+                        <div class="card-body px-0">
+                            <h5 class="card-title text-center">Re-usable Glass Bottles</h5>
+                            <p class="card-text text-center">Eco-concentrates that you add tap water to mean you just
+                                need one re-useable glass bottle which you can use over and over again. No more plastic
+                                junk going into landfill.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-9 col-sm-8 col-md-3">
+                    <div class="card h-100 bg-transparent border-0">
+                        <div class="text-center"><img src="./images/Group 6470.png" class="card-img-top w-75" alt="...">
+                        </div>
+                        <div class="card-body px-0">
+                            <h5 class="card-title text-center">Amazing Long Lasting Scents</h5>
+                            <p class="card-text text-center">Pure essential oils mean our scents smell natural and stick
+                                around to transform your home into a spa like bliss.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-9 col-sm-8 col-md-3">
+                    <div class="card h-100 bg-transparent border-0">
+                        <div class="text-center"><img src="./images/Group 6471.png" class="card-img-top w-75" alt="...">
+                        </div>
+                        <div class="card-body px-0">
+                            <h5 class="card-title text-center">Non Toxic & Natural</h5>
+                            <p class="card-text text-center">100% natural ingredients and no toxins mean you can be sure
+                                you are putting your family first and not impacting you immunity or gut health.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="compare-block py-5">
+        <div class="container">
+            <h1 class="text-center heading text-white">How we compare</h1>
+            <p class="text-center text-white mb-5">4.9/5.0 (63,632 reviews)</p>
+            <div class="row g-3 d-none d-lg-flex flex-nowrap">
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-body">
+                            <p class="card-text mb-3 text-center">"his is a great starter kit and all three scents are
+                                just lovely. Cleaning is no longer a chore and once I started I didn`t want to stop. So
+                                good to just need one product for every surface."</p>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <span>Andrea T. | </span>
+                                <div class="d-flex align-items-center ms-2">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-body">
+                            <p class="card-text mb-3 text-center">"his is a great starter kit and all three scents are
+                                just lovely. Cleaning is no longer a chore and once I started I didn`t want to stop. So
+                                good to just need one product for every surface."</p>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <span>Andrea T. | </span>
+                                <div class="d-flex align-items-center ms-2">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-body">
+                            <p class="card-text mb-3 text-center">"his is a great starter kit and all three scents are
+                                just lovely. Cleaning is no longer a chore and once I started I didn`t want to stop. So
+                                good to just need one product for every surface."</p>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <span>Andrea T. | </span>
+                                <div class="d-flex align-items-center ms-2">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-body">
+                            <p class="card-text mb-3 text-center">"his is a great starter kit and all three scents are
+                                just lovely. Cleaning is no longer a chore and once I started I didn`t want to stop. So
+                                good to just need one product for every surface."</p>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <span>Andrea T. | </span>
+                                <div class="d-flex align-items-center ms-2">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" overflow-hidden d-lg-none">
+                <div class="center row pb-4">
+                    <div class="col px-2">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <p class="card-text mb-3 text-center">"his is a great starter kit and all three scents
+                                    are
+                                    just lovely. Cleaning is no longer a chore and once I started I didn`t want to stop.
+                                    So
+                                    good to just need one product for every surface."</p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span>Andrea T. | </span>
+                                    <div class="d-flex align-items-center ms-2">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col px-2">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <p class="card-text mb-3 text-center">"his is a great starter kit and all three scents
+                                    are
+                                    just lovely. Cleaning is no longer a chore and once I started I didn`t want to stop.
+                                    So
+                                    good to just need one product for every surface."</p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span>Andrea T. | </span>
+                                    <div class="d-flex align-items-center ms-2">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col px-2">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <p class="card-text mb-3 text-center">"his is a great starter kit and all three scents
+                                    are
+                                    just lovely. Cleaning is no longer a chore and once I started I didn`t want to stop.
+                                    So
+                                    good to just need one product for every surface."</p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span>Andrea T. | </span>
+                                    <div class="d-flex align-items-center ms-2">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col px-2">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <p class="card-text mb-3 text-center">"his is a great starter kit and all three scents
+                                    are
+                                    just lovely. Cleaning is no longer a chore and once I started I didn`t want to stop.
+                                    So
+                                    good to just need one product for every surface."</p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span>Andrea T. | </span>
+                                    <div class="d-flex align-items-center ms-2">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                        <img src="./images/star.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="compare-block-2 py-4">
+        <div class="container">
+            <h1 class="text-center heading mb-5">How we compare</h1>
+            <div class="col-12 col-md-8 m-auto">
+                <table class="table">
+                    <tr>
+                        <th></th>
+                        <td class="text-center p-1 p-sm-2 border border-bottom-0 border-3 border-dark"><img
+                                class="col-12 col-sm-8" src="./images/Purdy_Figg_Logo_DoubleStack_Plan de travail 1.png"
+                                alt=""></td>
+                        <td class="text-center p-1 p-sm-2"><img class="col-12 col-sm-10"
+                                src="./images/Method + Ecover.png" alt=""></td>
+                        <td class="text-center p-1 p-sm-2"><img class="col-12 col-sm-10" src="./images/Flash.png"
+                                alt=""></td>
+                    </tr>
+                    <tr class="bg-sky-blue">
+                        <th class="ps-1 ps-sm-5 col-6">Refillable</th>
+                        <td class="text-center bg-white col-2 border border-bottom-0 border-top-0 border-3 border-dark">
+                            <img src="./images/Group 6308.png" alt="">
+                        </td>
+                        <td class="text-center col-2"><img src="./images/Group 6318.png" alt=""></td>
+                        <td class="text-center col-2"><img src="./images/Group 6318.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <th class="ps-1 ps-sm-5 col-6">Naturally Scented</th>
+                        <td class="text-center col-2 border border-bottom-0 border-top-0 border-3 border-dark"><img
+                                src="./images/Group 6308.png" alt=""></td>
+                        <td class="text-center col-2"><img src="./images/Group 6318.png" alt=""></td>
+                        <td class="text-center col-2"><img src="./images/Group 6318.png" alt=""></td>
+                    </tr>
+                    <tr class="bg-sky-blue">
+                        <th class="ps-1 ps-sm-5 col-6">Plant Based</th>
+                        <td class="text-center bg-white col-2 border border-bottom-0 border-top-0 border-3 border-dark">
+                            <img src="./images/Group 6308.png" alt="">
+                        </td>
+                        <td class="text-center col-2"><img src="./images/Group 6318.png" alt=""></td>
+                        <td class="text-center col-2"><img src="./images/Group 6318.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <th class="ps-1 ps-sm-5 col-6">Eco-Friendly</th>
+                        <td class="text-center col-2 border border-bottom-0 border-top-0 border-3 border-dark"><img
+                                src="./images/Group 6308.png" alt=""></td>
+                        <td class="text-center col-2"><img src="./images/Group 6318.png" alt=""></td>
+                        <td class="text-center col-2"><img src="./images/Group 6318.png" alt=""></td>
+                    </tr>
+                    <tr class="bg-sky-blue">
+                        <th class="ps-1 ps-sm-5 col-6">Made in the UK</th>
+                        <td class="text-center bg-white col-2 border border-top-0 border-3 border-dark"><img
+                                src="./images/Group 6308.png" alt=""></td>
+                        <td class="text-center col-2"><img src="./images/Group 6318.png" alt=""></td>
+                        <td class="text-center col-2"><img src="./images/Group 6318.png" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="other-benefits bg-blue py-5">
+        <div class="container pb-4">
+            <h1 class="text-center heading text-white mb-5">Other Benefits</h1>
+            <div class="row mx-0 d-none d-md-flex">
+                <div class="col col-3 text-center align-self-end"><img class="col-4 mb-2" src="./images/Group 6429.png"
+                        alt="">
+                    <p class="text-white">Free Returns</p>
+                </div>
+                <div class="col col-3 text-center align-self-end"><img class="col-4 mb-2" src="./images/Group 6430.png"
+                        alt="">
+                    <p class="text-white">30 Day Trial</p>
+                </div>
+                <div class="col col-3 text-center align-self-end"><img class="col-4 mb-2" src="./images/Group 6431.png"
+                        alt="">
+                    <p class="text-white">Ships in 1 Day</p>
+                </div>
+                <div class="col col-3 text-center align-self-end"><img class="col-2 mb-2" src="./images/Group 6435.png"
+                        alt="">
+                    <p class="text-white">Free Bottle For Life</p>
+                </div>
+            </div>
+
+            <div id="carouselExampleCaptions" class="carousel slide d-md-none" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="col text-center align-self-end"><img class="col-4 mb-2"
+                                src="./images/Group 6429.png" alt="">
+                            <p class="text-white fs-5">Free Returns</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col text-center align-self-end"><img class="col-4 mb-2"
+                                src="./images/Group 6430.png" alt="">
+                            <p class="text-white fs-5">30 Day Trial</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col text-center align-self-end"><img class="col-4 mb-2"
+                                src="./images/Group 6431.png" alt="">
+                            <p class="text-white fs-5">Ships in 1 Day</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col text-center align-self-end"><img class="col-2 mb-2"
+                                src="./images/Group 6435.png" alt="">
+                            <p class="text-white fs-5">Free Bottle For Life</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="follow-us bg-sky-blue py-5">
+        <div class="container">
+            <h1 class="text-center heading">See in in Real Life</h1>
+            <p class="text-center mb-5">See Purdy & Figg in real life with real customers</p>
+            <div class="row g-4 mx-0 mb-4 pb-3">
+                <div class="col col-6 col-md-3">
+                    <div class="card h-100 border-0 rounded-0">
+                        <img src="./images/850_4006@2x.png" class="card-img-top w-100" alt="...">
+                    </div>
+                </div>
+                <div class="col col-6 col-md-3">
+                    <div class="card h-100 border-0 rounded-0">
+                        <img src="./images/image (1).png" class="card-img-top w-100" alt="...">
+                    </div>
+                </div>
+                <div class="col col-6 col-md-3">
+                    <div class="card h-100 border-0 rounded-0">
+                        <img src="./images/image (2).png" class="card-img-top w-100" alt="...">
+                    </div>
+                </div>
+                <div class="col col-6 col-md-3">
+                    <div class="card h-100 border-0 rounded-0">
+                        <img src="./images/image (3).png" class="card-img-top w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mb-5 pb-5"><button
+                    class="rounded-pill col-10 col-sm-6 col-md-5 col-lg-4 col-xl-3">FOLLOW US</button></div>
+            <h1 class="text-center heading mb-4 mb-sm-5">Frequently Asked Questions</h1>
+            <div class="accordion col-12 col-sm-10 col-lg-8 m-auto accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button bg-transparent fw-bold collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            How many uses will I get out of a bottle?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+                            body.</div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button bg-transparent fw-bold collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                            aria-controls="flush-collapseTwo">
+                            Is this more expensive than a regular cleaner?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                            body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button bg-transparent fw-bold collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            How can I be sure it works?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button bg-transparent fw-bold collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Is it safe around pets?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button bg-transparent fw-bold collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            Is it Cruelty Free?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-transparent">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button bg-transparent fw-bold collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false"
+                            aria-controls="flush-collapseSix">
+                            Is it safe to use on all my surfaces?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a class="scroll d-none d-sm-block" id="scroll-btn" href="#top"><span class="position-relative w-100"><img
+                class="w-100" src="./images/scroll-arrow.png" alt=""></span></a>
+
+
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(window).scroll(function () {
+            var x = $(window).scrollTop();
+            if (x >= 300) {
+                document.getElementById("scroll-btn").style.bottom = "50px";
+            }
+            else {
+                document.getElementById("scroll-btn").style.bottom = "120%";
+            }
+        });
+        $(window).scroll(function () {
+            var x = $(window).scrollTop();
+            if (x >= 50) {
+                document.getElementById("head").style.padding = "10px 0";
+            }
+            else {
+                document.getElementById("head").style.padding = "20px 0";
+            }
+        });
+        $('.center').slick({
+            dots: true,
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        arrows: true,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 578,
+                    settings: {
+                        arrows: true,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                },
+            ]
+        });
+    </script>
+</body>
+
+</html>
